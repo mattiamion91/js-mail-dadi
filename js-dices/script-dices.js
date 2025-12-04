@@ -27,22 +27,19 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 
 //se numero giocatore = numero pc - pareggio
 
-const playerRoll = 6
+const playerRoll = Math.floor(Math.random() * 6) + 1;
+console.log(playerRoll);
 
-//const playerRoll = 3
+const pcRoll = Math.floor(Math.random() * 6) + 1;
+console.log(pcRoll);
 
-//const playerRoll = 2
-
-const pcRoll = 5
-
-//const pcRoll = 1
-
-//const pcRoll = 2
 
 if ( playerRoll > pcRoll) {
     console.log('vince il giocatore');
+
 } else if ( playerRoll < pcRoll) {
     console.log('vince il pc');
+
 } else {
 console.log('pareggio');
 
