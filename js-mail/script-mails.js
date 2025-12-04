@@ -50,13 +50,15 @@ for (let i = 0; i < invitedEmails.length; i++) { //creo un ciclo che controlli c
         declaredEmail = true; //se é presente il ciclo si chiude
     }
 }
-/*
-if (declaredEmail = true) {
+
+
+
+if (declaredEmail === false) {
   console.log('ci dispaice ma la sua mail non é presente nella lista degli invitati');
   
-} if (declaredEmail = false) {
+} else {
 console.log('le auguriamo un caloroso benvenuto alla nostra festa');
 
 }
-*/
-console.log(declaredEmail);
+
+//console.log(declaredEmail);

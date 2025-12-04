@@ -13,3 +13,29 @@ Chiedi per 6 volte all’utente di inserire un numero,
 se è dispari inseriscilo nell’array
 */
 
+const firstWord = prompt("inserire la prima parola") //'albero' //poi usa prompt
+
+const secondWord = prompt("inserire la seconda parola") //'casa' //poi usa prompt
+
+//inserisco parola 1 
+
+//inserisco parola 2 
+
+//confronto lunghezza parole
+
+//se parola 1 piú lunga di parola 2 stampo prima parola 2 poi paorla 1
+
+//se parola 1 piú corta di parola 2 stampo prima parola 1 poi paorla 2
+
+//se parola 1 ha stessa lunghezza di parola 2 stampo messaggio "le parole hanno la stessa lunghezza"
+
+if (firstWord.length > secondWord.length)  {
+    console.log(`${secondWord} ${firstWord}`);   
+
+} else if (firstWord.length < secondWord.length) {
+    console.log(`${firstWord} ${secondWord}`);
+    
+} else {
+    console.log('le parole hanno la stessa lunghezza');
+    
+}

@@ -33,14 +33,13 @@ console.log(playerRoll);
 const pcRoll = Math.floor(Math.random() * 6) + 1;
 console.log(pcRoll);
 
-
-if ( playerRoll > pcRoll) {
+if (playerRoll > pcRoll) {
     console.log('vince il giocatore');
 
-} else if ( playerRoll < pcRoll) {
+} else if (playerRoll < pcRoll) {
     console.log('vince il pc');
 
 } else {
-console.log('pareggio');
+    console.log('pareggio');
 
 }
