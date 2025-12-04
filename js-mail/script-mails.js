@@ -41,13 +41,14 @@ const invitedEmails = [
   "emanuele.corsi62@sampleinbox.com"
 ]; //lista degli invitati
 
-let inputEmail = prompt('inserisci la tua mail') //mail inserita da verificare
+let inputEmail = prompt('inserisci la tua mail tutto in minuscolo') //mail inserita da verificare
 
 let declaredEmail = false //imposta di base che la mail non sia presente nella lista con un FALSE
 
-for (i = 0; i < invitedEmails.length; i++) {
+for (let i = 0; i < invitedEmails.length; i++) { //creo un ciclo che controlli che la mail inserita con pormpt faccia parte dell'array
     if (invitedEmails[i] === inputEmail) {
-        declaredEmail = true;
+        declaredEmail = true; //se é presente il ciclo si chiude
     }
 }
+
 console.log(declaredEmail);

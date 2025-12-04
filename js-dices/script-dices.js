@@ -14,3 +14,36 @@ si ma noi cosa vogliamo fare?,
 torniamo a scrivere in italiano,
 proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 */
+
+//genero un numero random per il giocatore
+
+//genero un numero random per il pc
+
+//confronto i due risultati ottenuti
+
+//se numero giocatore > numero pc - vince il giocatore
+
+//se numero giocatore < numero pc - vince pc
+
+//se numero giocatore = numero pc - pareggio
+
+const playerRoll = 6
+
+//const playerRoll = 3
+
+//const playerRoll = 2
+
+const pcRoll = 5
+
+//const pcRoll = 1
+
+//const pcRoll = 2
+
+if ( playerRoll > pcRoll) {
+    console.log('vince il giocatore');
+} else if ( playerRoll < pcRoll) {
+    console.log('vince il pc');
+} else {
+console.log('pareggio');
+
+}
